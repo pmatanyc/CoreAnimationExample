@@ -21,6 +21,7 @@
 		B2613CD6198065BE0023E891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2613CB8198065BE0023E891 /* UIKit.framework */; };
 		B2613CDE198065BE0023E891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2613CDC198065BE0023E891 /* InfoPlist.strings */; };
 		B2613CE0198065BE0023E891 /* PMCoreAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2613CDF198065BE0023E891 /* PMCoreAnimationsTests.m */; };
+		B2613CEC198183EB0023E891 /* NYCTL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2613CEB198183EB0023E891 /* NYCTL.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2613CDB198065BE0023E891 /* PMCoreAnimationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMCoreAnimationsTests-Info.plist"; sourceTree = "<group>"; };
 		B2613CDD198065BE0023E891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2613CDF198065BE0023E891 /* PMCoreAnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMCoreAnimationsTests.m; sourceTree = "<group>"; };
+		B2613CEB198183EB0023E891 /* NYCTL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NYCTL.jpg; path = ../NYCTL.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		B2613CBA198065BE0023E891 /* PMCoreAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				B2613CEB198183EB0023E891 /* NYCTL.jpg */,
 				B2613CC3198065BE0023E891 /* PMAppDelegate.h */,
 				B2613CC4198065BE0023E891 /* PMAppDelegate.m */,
 				B2613CC6198065BE0023E891 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2613CCD198065BE0023E891 /* Images.xcassets in Resources */,
+				B2613CEC198183EB0023E891 /* NYCTL.jpg in Resources */,
 				B2613CBF198065BE0023E891 /* InfoPlist.strings in Resources */,
 				B2613CC8198065BE0023E891 /* Main.storyboard in Resources */,
 			);
@@ -458,6 +462,7 @@
 				B2613CE5198065BE0023E891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2613CE6198065BE0023E891 /* Build configuration list for PBXNativeTarget "PMCoreAnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +471,7 @@
 				B2613CE8198065BE0023E891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

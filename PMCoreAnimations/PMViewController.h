@@ -10,4 +10,7 @@
 
 @interface PMViewController : UIViewController
 
+@property(nonatomic)IBOutlet UIImageView *imageView;
+@property (nonatomic, strong) CALayer *imageLayer;
+
 @end
